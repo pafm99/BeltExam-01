@@ -1,0 +1,245 @@
+#wrapper {
+    /* border: 1px solid red; */
+    width: 90%;
+    margin: 0 auto;
+    background-color: #1a1a1a;
+}
+/* HEAD STYLES */
+#header_div {
+    /* border: 1px solid yellow; */
+    display: inline-block;
+    width: 100%;
+    height: 130px;
+}
+#logo {
+    /* border: 1px solid pink; */
+    width: 70%;
+    float: left;
+    height: 100%;
+}
+#logo_img {
+    width: 350px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+#contact {
+    /* border: 1px solid gray; */
+    width: 27%;
+    float: right;
+    height: 80%;
+    margin-top: 20px;
+}
+#nav {
+    /* border: 1px solid green; */
+    background: linear-gradient(#515151, #404040, #2f2f2f);
+}
+#nav_ul li {
+    display: inline-block;
+    padding: 10px;
+    margin: 0px 10px 0px 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.nav_li {
+    text-decoration: none;
+    color: #a5a5a2;
+}
+/* GALLERY STYLES*/
+#gallery {
+    /* border: 1px solid blue; */
+}
+#gallery_image {
+    width: 100%;
+    border-bottom: 5px solid rgba(49,48,48,0.87);
+}
+/* MAIN CONTENT STYLES */
+#main_content {
+    /* border: 1px solid magenta; */
+    display: inline-block;
+    width: 100%;
+    background-color: rgba(49,48,48,0.87);
+}
+p {
+    color: #eeeeee;
+    margin-left: 10px;
+}
+h1 {
+    color: white;
+    margin-left: 10px;
+}
+h2 {
+    color: white;
+    margin-left: 10px;
+}
+h3, h4 {
+    color: #d6743b;
+    margin-left: 10px;
+}
+
+#ridiculus {
+    /* border: 1px solid orange; */
+    display: inline-block;
+    width: 24%;
+    margin-left: 1%;
+}
+#ridiculus_img {
+    /* border: 1px solid blue; */
+    width: 20%;
+    float: left;
+    display: inline-block;
+}
+#ridiculus_text {
+    /* border: 1px solid red; */
+    width: 70%;
+    float: left;
+    display: inline-block;
+}
+#ipsum {
+    /* border: 1px solid purple; */
+    display: inline-block;
+    width: 24%;
+    vertical-align: top;
+}
+#ipsum_img {
+    /* border: 1px solid blue; */
+    width: 20%;
+    float: left;
+    display: inline-block;
+}
+#ipsum_text {
+    /* border: 1px solid red; */
+    width: 70%;
+    float: left;
+    display: inline-block;
+}
+
+#tellus {
+    /* border: 1px solid lightblue; */
+    display: inline-block;
+    width: 24%;
+    vertical-align: top;
+}
+#tellus_img {
+    /* border: 1px solid blue; */
+    width: 20%;
+    float: left;
+    display: inline-block;
+}
+#tellus_text {
+    /* border: 1px solid red; */
+    width: 70%;
+    float: left;
+    display: inline-block;
+}
+#sem {
+    /* border: 1px solid lightgreen; */
+    display: inline-block;
+    width: 24%;
+    vertical-align: top;
+    margin-right: 1%;
+}
+#sem_img {
+    /* border: 1px solid blue; */
+    width: 20%;
+    float: left;
+    display: inline-block;
+}
+#sem_text {
+    /* border: 1px solid red; */
+    width: 70%;
+    float: left;
+    display: inline-block;
+}
+.icons {
+    width: 100%;
+    margin-top: 15px;
+}
+/* MAIN BOTTOM STYLES */
+#main_bottom {
+    /* border: 1px solid lightskyblue; */
+    display: inline-block;
+    width: 100%;
+}
+#main_bottom_left {
+    /* border: 1px solid red; */
+    width: 89%;
+    float: left;
+}
+#main_bottom_right {
+    /* border: 1px solid blue; */
+    width: 10%;
+    float: left;
+    height: 100%;
+    margin-top: 30px;
+}
+.button {
+    /* background-color: orange; */
+    /* border: 1px solid #eeba93; */
+    border-radius: 10px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background: linear-gradient(#eeba93, #e38c4d, #eeba93);
+}
+/* PORTFOLIO STYLES */
+#portfolio {
+    /* border: 10px solid yellow; */
+    width: 100%;
+    background-color: rgba(49,48,48,0.87);
+}
+#portfolio_header {
+    /* border: 3px solid green; */
+    width: 100%;
+    display: inline-block;
+
+}
+#portfolio_footer {
+    /* border: 1px solid darkblue; */
+    display: inline-block;
+}
+#portfolio_header_left {
+    /* border: 1px solid red; */
+    display: inline-block;
+    width: 85%;
+    float: left;
+}
+#portfolio_header_right {
+    /* border: 1px solid blue; */
+    display: inline-block;
+    width: 10%;
+    margin-left: 35px;
+}
+
+#built {
+    /* border: 1px solid rebeccapurple; */
+    width: 24%;
+    float: left;
+    margin: 4px;
+}
+#new {
+    /* border: 1px solid sienna; */
+    width: 24%;
+    float: left;
+    margin: 4px;
+}
+#access {
+    /* border: 1px solid black; */
+    width: 24%;
+    float: left;
+    margin: 4px;
+}
+#custom {
+    /* border: 1px solid burlywood; */
+    width: 24%;
+    float: left;
+    margin: 4px;
+}
+.portfolio_images{
+    width: 96%;
+    border: 5px solid #363636;
+}
